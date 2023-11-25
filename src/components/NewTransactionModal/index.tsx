@@ -53,7 +53,7 @@ export function NewTransactionModal() {
       <Overlay />
 
       <Content>
-        <Dialog.Title>Nova Transacao</Dialog.Title>
+        <Dialog.Title>New Transaction</Dialog.Title>
 
         <CloseButton>
           <X size={24} />
@@ -62,19 +62,19 @@ export function NewTransactionModal() {
         <form onSubmit={handleSubmit(handleCreateNewTransaction)}>
           <input
             type="text"
-            placeholder="Descricao"
+            placeholder="Description"
             required
             {...register('description')}
           />
           <input
             type="number"
-            placeholder="Preco"
+            placeholder="Price"
             required
             {...register('price', { valueAsNumber: true })}
           />
           <input
             type="text"
-            placeholder="Categoria"
+            placeholder="Category"
             required
             {...register('category')}
           />
@@ -90,12 +90,12 @@ export function NewTransactionModal() {
                 >
                   <TransactionTypeButon variant="income" value="income">
                     <ArrowCircleUp size={24} />
-                    Entrada
+                    Income
                   </TransactionTypeButon>
 
                   <TransactionTypeButon variant="outcome" value="outcome">
                     <ArrowCircleDown size={24} />
-                    Saida
+                    Outcome
                   </TransactionTypeButon>
                 </TransactionType>
               );
@@ -103,7 +103,7 @@ export function NewTransactionModal() {
           />
 
           <button type="submit" disabled={isSubmitting}>
-            Cadastrar
+            Register
           </button>
         </form>
       </Content>

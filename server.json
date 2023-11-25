@@ -2,17 +2,17 @@
   "transactions": [
     {
       "id": 1,
-      "description": "Desenvolvimento de site",
+      "description": "Website development",
       "type": "income",
-      "category": "Venda",
+      "category": "Development",
       "price": 14000,
       "createdAt": "2023-04-18T14:24:37.554Z"
     },
     {
       "id": 2,
-      "description": "Hamburguer",
+      "description": "Hamburger",
       "type": "outcome",
-      "category": "Alimentacao",
+      "category": "Food",
       "price": 59,
       "createdAt": "2023-04-18T14:20:37.554Z"
     },
@@ -20,22 +20,22 @@
       "id": 3,
       "description": "Ignite Rocket Seat",
       "type": "outcome",
-      "category": "Educacao",
+      "category": "Education",
       "price": 1980,
       "createdAt": "2023-04-18T14:10:37.554Z"
     },
     {
-      "description": "Desenvolvimento de app",
+      "description": "App development",
       "price": 10000,
-      "category": "Venda",
+      "category": "Development",
       "type": "income",
       "createdAt": "2023-04-19T14:32:22.202Z",
       "id": 4
     },
     {
-      "description": "Pastel",
+      "description": "Fries",
       "price": 5,
-      "category": "Alimentacao",
+      "category": "Food",
       "type": "outcome",
       "createdAt": "2023-04-19T14:43:43.123Z",
       "id": 5
